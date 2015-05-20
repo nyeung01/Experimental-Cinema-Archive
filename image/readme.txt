@@ -1,0 +1,1 @@
+This is where you place any images. Feel free to categorize them by people's names.
