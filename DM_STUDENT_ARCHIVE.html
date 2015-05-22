@@ -1,6 +1,7 @@
+<!DOCTYPE html>
 <html>
 <header>
-  <title>Experimental Cinema</title>
+  <title>Integrated Digital Media Cinema Exhibit</title>
   <link rel="stylesheet" type="text/css" href="css/main_style.css">
 </header>
 <body>
@@ -8,39 +9,48 @@
     <h1 class="studentArchive">Student Archive</h1>
     <div id="select-tab">
       <ul>
-        <li><a class ="2014" href ="#3D">2014</a></li>
-        <li><a class ="2015" href ="#Doc">2015</a></li>
+        <li><a href="#" onclick="showhide('class-2014');">2014</a></li>
+        <li><a href="#" onclick="showhide('class-2015');">2015</a></li>
       </ul>
     </div>
-</div>
-<!-- <div class="vid">
-<video width="720" height="480" controls >
-  <source src="image/movie/Mahe_experimentalfilm_2015.MOV">
-  </video>
- <div class="title">Mahe</div>
-</div>
-<div class="vid">
-<video width="720" height="480" controls >
-  <source src="image/movie/Boyong_experimentalfilm_2015.MOV">
-  </video>
- <div class="title">Boyong</div>
-</div>
-<div class="vid">
-<iframe src="https://player.vimeo.com/video/127316287" width="720" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-<div class="title">Yoshi</div>
-</div>
+  </div>
+  <div id ="class-2014">
+      testing
+  </div>
+  <div id ="class-2015">
+    <div class="vid">
+      <video width="720" height="480" controls >
+        <source src="image/movie/Mahe_experimentalfilm_2015.MOV">
+        </video>
+        <div class="owner">Mahe</div>
+      </div>
+      <div class="vid">
+        <video width="720" height="480" controls >
+          <source src="image/movie/Boyong_experimentalfilm_2015.MOV">
+          </video>
+          <div class="owner">Boyong</div>
+        </div>
+        <div class="vid">
+          <iframe src="https://player.vimeo.com/video/127316287" width="720" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+          <div class="owner">Yoshi</div>
+        </div>
 
-<div class="img">
-<img src="image/image/Project+Documentation.docx">
-<div class="title">Kevin</div>
-</div>
+        <div class="img">
+          <img src="image/image/Project+Documentation.docx" />
+          <div class="owner">Kevin</div>
+        </div>
 
-<div class="img">
-<img src="image/image/Time-Desolation-Final_3.png">
-<div class="title">Nick</div>
-</div>
-<div class="img">
-<img src="image/image/photo 1.JPG">
-<div class="title">Damien</div> -->
+        <div class="img">
+          <img src="image/image/Time-Desolation-Final_3.png" />
+          <div class="owner">Nick</div>
+        </div>
+        <div class="img">
+          <img src="image/image/photo 1.JPG" />
+          <div class="owner">Damien</div>
+        </div>
+  </div>
+  <!-- Place script files here to load page faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/extra.js"></script>
 </body>
 </html>
