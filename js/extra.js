@@ -16,6 +16,7 @@ function showhide(id) {
     return false;
 }
 
+// Randomize body background color on each load
 function changeBodyBackground (){
 	var bg = 'rgb(' + (Math.floor((256-229)*Math.random()) + 150) + ',' + 
                                     (Math.floor((256-229)*Math.random()) + 150) + ',' + 
@@ -24,6 +25,7 @@ function changeBodyBackground (){
 	changeTextColor();
 }
 
+// Adjust text color to background color
 function changeTextColor (){
     var color = $('body').css('background-color');
     var startIndex = color.indexOf('(') + 1;

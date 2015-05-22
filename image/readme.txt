@@ -1,1 +1,1 @@
-This is where you place any images. Feel free to categorize them by people's names.
+This is where you place any images. These images are for the website. Please refer to the 'file' folder for project files.
